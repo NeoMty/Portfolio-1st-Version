@@ -1,265 +1,249 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
-  } from "../assets";
-  
-  export const navLinks = [
-    {
-      id: "about",
-      title: "About",
-    },
-    {
-      id: "work",
-      title: "Work",
-    },
-    {
-      id: "contact",
-      title: "Contact",
-    },
-  ];
-  
-  const services = [
-    {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
-  ];
-  
-  const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
-  ];
-  
-  const experiences = [
-    {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-  ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
-  const projects = [
-    {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
-  ];
-  
-  export { services, technologies, experiences, testimonials, projects };
+  mobile,
+  backend,
+  game,
+  web,
+  javascript,
+  typescript,
+  html,
+  css,
+  reactjs,
+  redux,
+  tailwind,
+  nodejs,
+  mongodb,
+  git,
+  figma,
+  docker,
+  cplusplus,
+  csharp,
+  sqlserver,
+  swiftui,
+  swift,
+  unity,
+  oraclelivesql,
+  java,
+  libgdx,
+  silma,
+  fugas,
+  itesm,
+  equilibrium,
+  carrent,
+  jobit,
+  tripguide,
+  threejs,
+  inventory,
+  compiler,
+  simulator
+} from "../assets";
+
+export const navLinks = [
+  {
+    id: "about",
+    title: "About",
+  },
+  {
+    id: "work",
+    title: "Work",
+  },
+  {
+    id: "contact",
+    title: "Contact",
+  },
+];
+
+const services = [
+  {
+    title: "Web Developer",
+    icon: web,
+  },
+  {
+    title: "Mobile Developer",
+    icon: mobile,
+  },
+  {
+    title: "Backend Developer",
+    icon: backend,
+  },
+  {
+    title: "Game Developer",
+    icon: game,
+  },
+];
+
+const technologies = [
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "Microsoft SQL Server",
+    icon: sqlserver,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "C++",
+    icon: cplusplus,
+  },
+  {
+    name: "C#",
+    icon: csharp,
+  },
+  {
+    name: "Swift UI",
+    icon: swiftui,
+  },
+  {
+    name: "Unity",
+    icon: unity,
+  }
+];
+
+const experiences = [
+  {
+    title: "UI Developer",
+    company_name: "Equilibrium",
+    icon: equilibrium,
+    iconBg: "#E6DEDD",
+    date: "February 2021 - June 2021",
+    points: [
+      "Developing a physics simulator app using SwiftUI",
+      "Collaborating with other college students to deliver a product that high school students can use to learn.",
+      "Implementing an intuitive design and ensuring cross-device compatibility.",
+      "Participating in code reviews and providing constructive feedback to other college students.",
+    ],
+  },
+  {
+    title: "Compiler/VM Developer",
+    company_name: "Obiecti - Tecnológico de Monterrey",
+    icon: itesm,
+    iconBg: "#383E56",
+    date: "February 2022 - June 2022",
+    points: [
+      "Developing a new compiler and a virtual machine for a new programming language.",
+      "Collaborating with other college student to design a new programming language in one semester.",
+      "Implementing regular expressions, syntaxis diagrams, context-free grammar and other concepts related.",
+      "Implementing a virtual machine so it can read and make operations following the instructions .obj file generated of a compiler.",
+    ],
+  }, 
+  {
+    title: "Android Auto Developer",
+    company_name: "FuGas",
+    icon: fugas,
+    iconBg: "#E6DEDD",
+    date: "September 2022",
+    points: [
+      "Winner of Blue Yonder's Challenge in Hack Mty 2022.",
+      "Developing a car app using Android Auto, React.js and other related technologies.",
+      "Collaborating with other college students to self-learn and solve a challenge under 24 hours.",
+      "Implementing an interface easy to use so people can use it in a car without risking themselves.",
+    ],
+  }, 
+  {
+    title: "Backend Developer",
+    company_name: "Silma",
+    icon: silma,
+    iconBg: "#383E56",
+    date: "February 2023 - June 2023",
+    points: [
+      "Developing an inventory application for books and purchase items using React.js and other related technologies.",
+      "Collaborating with other college students to self-learn front-end and back-end.",
+      "Implementing a clean design and a robust structure that can be improved later on in the future.",
+      "Participating in code reviews and providing feedback to other college students using SCRUM methodology with the help of a teacher.",
+    ],
+  }
+];
+
+const testimonials = [
+  {
+    testimonial:
+      "Excellent in their approaches, a very careful and useful work that will be of great help to me in the editorial.",
+    name: "Aurora Carranza",
+    designation: "Author",
+    company: "Silma",
+    image: "https://i1.wp.com/www.silmaed.com/wp-content/uploads/2016/02/foto-de-aurora.jpg?resize=200%2C178",
+  }
+];
+
+const projects = [
+  {
+    name: "Silma Inventory",
+    description:
+      "Inventory system for an independent editorial making easy manage books and purchase items as also product assortments.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "serverless",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: inventory,
+    source_code_link: "https://github.com/gpaez-ol/silma",
+  },
+  {
+    name: "Obiecti",
+    description:
+      "A compiler for a new programming language and virtual machine that it can read the .obj file generated by the compiler and follow its instructions for operations.",
+    tags: [
+      {
+        name: "python3",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ply",
+        color: "green-text-gradient",
+      },
+    ],
+    image: compiler,
+    source_code_link: "https://github.com/JuanMBriones/Obiecti",
+  },
+  {
+    name: "Equilibrium",
+    description:
+      "A physics simulator that helps students learn concepts like torque allowing them play with a balance and characters. They can reforce concepts with quizzes.",
+    tags: [
+      {
+        name: "swift",
+        color: "blue-text-gradient",
+      }
+    ],
+    image: simulator,
+    source_code_link: "https://github.com/aroquev00/moviles-proyecto",
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects };

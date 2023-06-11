@@ -1,6 +1,6 @@
 import logo from "./logo.png";
 import backend from "./backend.png";
-import creator from "./creator.png";
+import game from "./game.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
@@ -20,20 +20,37 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import cplusplus from "./tech/cplusplus.svg";
+import csharp from "./tech/csharp.svg";
+import sqlserver from "./tech/sqlserver.svg";
+import swiftui from "./tech/swiftui.png";
+import swift from "./tech/swift.svg";
+import unity from "./tech/unity.png";
+import androidstudio from "./tech/androidstudio.png";
+import oraclelivesql from "./tech/oraclelivesql.png";
+import java from "./tech/java.png";
+import libgdx from "./tech/libgdx.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import silma from "./company/silma.png";
+import fugas from "./company/fugas.png";
+import itesm from "./company/itesm.svg";
+import equilibrium from "./company/equilibrium.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import inventory from "./inventory.png";
+import compiler from "./obiecti.png";
+import simulator from "./simulator.png";
 
 export {
   logo,
   backend,
-  creator,
+  game,
   mobile,
   web,
   github,
@@ -52,11 +69,27 @@ export {
   tailwind,
   typescript,
   threejs,
+  cplusplus,
+  csharp,
+  sqlserver,
+  swiftui,
+  swift,
+  unity,
+  oraclelivesql,
+  java,
+  libgdx,
   meta,
   shopify,
   starbucks,
   tesla,
+  silma,
+  fugas,
+  itesm,
+  equilibrium,
   carrent,
   jobit,
   tripguide,
+  inventory,
+  compiler,
+  simulator
 };
